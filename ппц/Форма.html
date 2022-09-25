@@ -1,0 +1,121 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Форма заказа</title>
+
+    <link href="5.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-black bg-violete">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="https://jut.su/kami-tou/">Аниме</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://mangalib.me/?hl=ru_RU">Манга</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://animeshop-akki.ru/cospley/">Косплей</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="https://ranobelib.me/" tabindex="-1" aria-disabled="true">Литература</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Поиск</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h2>Книжный магазин "Няпи"</h2>
+
+
+    <ul id="navbar">
+        <li><a href="главная.html"target="_blank"> Главная</a></li>
+        <li><a href="Новинки.html"target="_blank">Новинки</a></li>
+        <li><a href="Каталог.html"target="_blank">Каталог</a></li>
+        <li><a href="Форма.html"target="_blank">Форма заказа</a></li>
+        <li><a href="контакты.html"target="_blank">Контакты</a></li>
+    </ul>
+
+<table>
+<tr>
+<center>
+<form name="anketa" action="/cgi-bin/anketa.cgi" method="post">
+<td><h2>Данные закащика</h2>
+<p>ФИО:</p>
+<input type="text" size="30" maxlength="50" name="fam" placeholder="Введите ФИО"><br>
+<p>Номер карты:</p>
+<input type="text" size="30" maxlength="50" name="otchestvo" placeholder="Введите номер карты"><br><br>
+<p>E-mail:</p>
+<input type="text" size="30" maxlength="50" name="otchestvo" placeholder="Введите E-mail "><br><br> 
+<p>Телефон:</p>
+<input type="text" size="30" maxlength="50" name="otchestvo" placeholder="Введите номер телефона"><br><br> 
+
+<button class="b" type="reset" value="Очистить"><b>Очистить форму</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="a" type="submit" Value="Отправить"><b>Отправить форму</b></button>
+<br>  </form>
+</td>
+
+<td>
+<form name="anketa" action="/cgi-bin/anketa.cgi" method="post">
+<h2>Адрес доставки</h2>
+
+
+<br><br><br>
+<p>Выберите страну:</p>
+<select name="country" class="country">
+<option value="Russia">Россия
+<option value="Englang">Англия
+<option value="USA">США
+<option value="Germany">Германия
+<option value="Spain">Испания
+<option value="China">Китай
+<option value="italy">Италия
+<option value="Turkey">Турция
+<option value="Mexico">Мексика
+<option value="ukrain">Украина
+</select><br>
+<br><br><br>
+<p>Выберите город:</p>
+<div class="gorod">
+<input type="radio"name="city" value="Sturino" checked>Ступино &nbsp;&nbsp;
+<input type="radio"name="city" value="Moscow">Москва&nbsp;&nbsp;
+<input type="radio"name="city" value="Anapa">Анапа&nbsp;&nbsp;
+<input type="radio"name="city" value="Bryansk">Брянск&nbsp;&nbsp;
+<input type="radio"name="city" value="Evpatoria">Евпатория&nbsp;&nbsp;
+<input type="radio"name="city" value="Kerch">Керчь&nbsp;&nbsp;
+<input type="radio"name="city" value="Magadan">Магадан&nbsp;&nbsp;
+<br>
+</div>
+<br><br>
+
+
+<br><p>Дополнительная Информация:</p>
+				 <textarea cols="80" rows="5" name="comments" placeholder="Для комментария..."></textarea>
+                  <br><br>
+				  <button class="b" type="reset" value="Очистить"><b>Очистить форму</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <button class="a" type="submit" Value="Отправить"><b>Отправить форму</b></button>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br><br>
+	<div id="footer">
+        <p>Работу выполнила Колесникова Ева, ИСП-6</p>
+ </form>
+    </div>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
